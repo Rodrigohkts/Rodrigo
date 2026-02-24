@@ -31,7 +31,7 @@ export function Home() {
                         </li>
                         <li className="flex items-center space-x-4 text-[#d4d4d8]">
                             <Clock className="w-5 h-5 text-[#71717a] shrink-0" />
-                            <span className="text-sm">18h</span>
+                            <span className="text-sm">18:00H</span>
                         </li>
                         <li className="flex items-start space-x-4 text-[#d4d4d8]">
                             <MapPin className="w-5 h-5 text-[#71717a] shrink-0 mt-0.5" />
