@@ -1,6 +1,5 @@
 import { Calendar, Clock, MapPin } from 'lucide-react';
 import { RSVPForm } from '../components/RSVPForm';
-import { Link } from 'react-router-dom';
 
 export function Home() {
     return (
@@ -42,14 +41,8 @@ export function Home() {
                 </div>
 
                 {/* Right Column: Form Card */}
-                <div className="w-full relative flex flex-col items-center lg:items-end justify-center lg:justify-end gap-6">
+                <div className="w-full relative flex lg:justify-end">
                     <RSVPForm />
-                    <Link
-                        to="/guests"
-                        className="text-[10px] uppercase tracking-widest text-[#52525b] hover:text-white transition-colors duration-200"
-                    >
-                        Acesso Restrito
-                    </Link>
                 </div>
 
             </div>
